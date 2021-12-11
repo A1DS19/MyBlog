@@ -10,7 +10,7 @@ import { PostContent } from '../../detail/PostContent';
 import { Post } from '../../types';
 import { fetchEntrie, fetchEntries } from '../../util/contentFulPage';
 
-const PostDetailPage: NextPage = ({
+const PostDetailPage = ({
   post,
 }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element => {
   return (

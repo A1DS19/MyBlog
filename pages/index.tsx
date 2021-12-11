@@ -6,13 +6,13 @@ import { Post } from '../types';
 import { fetchEntries } from '../util/contentFulPage';
 import Head from 'next/head';
 
-const IndexPage: NextPage = ({
+const IndexPage = ({
   featuredPosts,
 }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element => {
   return (
     <React.Fragment>
       <Head>
-        <title>Jose's Blog</title>
+        <title>{"Jose's Blog"}</title>
         <meta name='description' content='My new blog' />
       </Head>
       <Hero />

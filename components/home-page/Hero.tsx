@@ -12,7 +12,7 @@ export const Hero: NextPage<HeroProps> = ({}): JSX.Element => {
         <div className={classes.image}>
           <Image src={'/god.jpg'} alt={'me'} width={300} height={300} />
         </div>
-        <h1>Hello, I'm Jose</h1>
+        <h1>{"Hello, I'm Jose"}</h1>
         <p>This is my blog...</p>
       </section>
     </React.Fragment>

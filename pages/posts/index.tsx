@@ -5,7 +5,7 @@ import { AllPosts } from '../../components/posts/AllPosts';
 import { Post } from '../../types';
 import { fetchEntries } from '../../util/contentFulPage';
 
-const IndexPage: NextPage = ({
+const IndexPage = ({
   allPosts,
 }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element => {
   return (
