@@ -16,7 +16,7 @@ const renderOptions: Options = {
     [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
       return (
         <Image
-          src={`https://${node.data.target.fields.file.url}`}
+          src={`https:${node.data.target.fields.file.url}`}
           alt={node.data.target.fields.title}
           height={node.data.target.fields.file.details.image.height}
           width={node.data.target.fields.file.details.image.width}
